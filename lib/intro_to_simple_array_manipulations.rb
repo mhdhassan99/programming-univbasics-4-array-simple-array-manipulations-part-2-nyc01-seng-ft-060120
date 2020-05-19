@@ -17,8 +17,7 @@ end
 
 
 def using_delete(array, string)
-  del = array[string]
-  array.delete(del)
+  array.delete(string)
 end
 
 
