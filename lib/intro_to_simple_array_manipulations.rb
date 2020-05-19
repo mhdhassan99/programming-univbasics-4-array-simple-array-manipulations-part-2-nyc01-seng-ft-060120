@@ -17,13 +17,8 @@ end
 
 
 def using_delete(array, string)
-  i = 0
-  while i < array.length do 
-    if array[i] == string
-      array.delete(i)
-    end
-    i += 1
-  end
+  del = array[string]
+  array.delete(del)
 end
 
 
