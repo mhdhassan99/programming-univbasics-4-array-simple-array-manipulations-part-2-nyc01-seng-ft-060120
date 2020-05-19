@@ -16,7 +16,7 @@ def using_flatten(array)
 end
 
 
-def using_delete(array, string)
+def using_delete(array, String)
   i = 0
   while i < array.length do 
     if array[i] == string
