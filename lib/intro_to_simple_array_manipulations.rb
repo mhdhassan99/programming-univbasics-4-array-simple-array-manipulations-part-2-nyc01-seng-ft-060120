@@ -27,4 +27,14 @@ def using_delete(array, String)
 end
 
 
-def 
+def using_delete_at(array, integer)
+  i = 0
+  while i < array.length do
+    if i == integer
+      
+    end
+    i += 1
+  end
+end
+
+
